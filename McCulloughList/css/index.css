@@ -1,0 +1,24 @@
+.row{
+  display: flex;
+  width: auto;
+}
+
+.column{
+  text-align: left;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../img/Urals.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* Keeps background fixed when scrolling */
+  color: rgb(168, 123, 0);
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
