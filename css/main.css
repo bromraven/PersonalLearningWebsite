@@ -28,6 +28,7 @@ button{
 }
 
 .row{
+    align-content: space-between;
     display: flex;
     flex-direction: row;
     width: 100%;
