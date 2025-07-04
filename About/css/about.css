@@ -4,6 +4,7 @@
     display: flex;
     width: 100%;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .quarterColumn{
@@ -26,5 +27,16 @@
 .halfonexhtov > * {
     flex: 1;
     min-width: 0;
-    max-width: 100%;
+    max-width: 50%;
+}
+
+.p2{
+    width: 50%;
+}
+
+.slimcolumn{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }

@@ -5,6 +5,10 @@ padding: 0;
 box-sizing: border-box;
 }
 
+img{
+    object-fit: cover;
+}
+
 body{
 
     display: flex;
@@ -105,7 +109,7 @@ p{
     max-width: 100%;
 }
 
-@media (max-width:800px){
+@media (max-width:1000px){
     .onexhtov{
         flex-direction: column;
         padding: 30px;
@@ -166,7 +170,7 @@ p{
     text-align: center;
 }
 
-@media (max-width:800px) {
+@media (max-width:1000px) {
 
     .NavButton{
         display: block;
