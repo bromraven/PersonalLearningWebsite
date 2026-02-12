@@ -1,0 +1,47 @@
+.page{
+    box-shadow: inset 0 0 0 2000px rgba(100, 100, 100, 0.90);
+    background-image: url(https://opensolutions.design/Media/assets/Backgrounds/e3773705_original.jpg);
+    background-position: left;
+}
+
+h1{
+    font-size: 7vw;
+    padding: 3% 0.5% 3% 2%;
+}
+
+.projectSection{
+    display: block;
+    padding: 3% 1% 1% 1%;
+    color: beige;
+    border-radius: 2vh;
+    border-width: 0.75vh 0px 0.75vh 0px;
+    box-shadow: inset 0 0 0 1000px rgba(90, 90, 90, 1);
+
+}
+
+.GradiWrap{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: linear-gradient( rgb(100,100,100) , #ffffff00);
+}
+
+.fourxGrid{
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2vw;
+    place-items: center;
+}
+
+.fourxGrid > * {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+@media (max-width:800px){
+    .fourxGrid{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}

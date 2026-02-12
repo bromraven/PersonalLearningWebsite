@@ -1,0 +1,26 @@
+
+.IdGrid{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5%;
+    place-items: center;
+}
+
+@media (max-width:800px){
+    .IdGrid{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+}
+
+.IdGrid > * {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.gridImg{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

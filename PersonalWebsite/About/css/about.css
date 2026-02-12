@@ -1,0 +1,42 @@
+.row{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.quarterColumn{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.halfonexhtov{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    padding: 20px;
+    flex: 1;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.halfonexhtov > * {
+    flex: 1;
+    min-width: 0;
+    max-width: 50%;
+}
+
+.p2{
+    width: 50%;
+}
+
+.slimcolumn{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
